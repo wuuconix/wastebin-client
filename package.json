@@ -2,8 +2,8 @@
   "dependencies": {
     "node-fetch": "^3.2.5"
   },
-  "name": "wastebin-client",
-  "description": "wastebin 配套npm客户端",
+  "name": "wastebin",
+  "description": "wastebin 配套CLI命令行客户端",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
