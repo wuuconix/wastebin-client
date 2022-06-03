@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.5"
+  },
+  "name": "wastebin-client",
+  "description": "wastebin 配套npm客户端",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "waste": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuuconix/wastebin-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuuconix/wastebin-client/issues"
+  },
+  "homepage": "https://github.com/wuuconix/wastebin-client#readme"
+}
