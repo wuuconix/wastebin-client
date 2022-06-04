@@ -13,7 +13,15 @@ echo "wuuconix" | waste
 cat index.js | waste
 ```
 
-![](https://tva1.sinaimg.cn/large/007YVyKcly1h2vibkregsj30f3028wgm.jpg)
+![](https://tvax1.sinaimg.cn/large/007YVyKcly1h2w662yej0j30fx01t0ug.jpg)
+
+或者更加打开一下脑洞，利用qrencode来生成链接二维码？
+
+```bash
+echo "How About Generating a QRCode for Share?" | waste | qrencode -t UTF8
+```
+
+![image](https://tvax4.sinaimg.cn/large/007YVyKcly1h2w67d3yzyj30oy0a9abi.jpg)
 
 PS: npm安装的时候如果找不到包，可能是你用的镜像源还没有更新。
 

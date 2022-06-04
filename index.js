@@ -9,5 +9,5 @@ fetch("https://paste.wuuconix.link/documents", {
     body: new URLSearchParams({data})
 }).then(res => res.json()).then(res => {
     const filename = res.filename
-    console.log(`link: https://paste.wuuconix.link/${filename}`)
+    console.log(`https://paste.wuuconix.link/${filename}`)
 })
