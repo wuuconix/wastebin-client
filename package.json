@@ -1,17 +1,15 @@
 {
-  "dependencies": {
-    "node-fetch": "^3.2.5"
-  },
   "name": "wastebin",
   "description": "wastebin 配套CLI命令行客户端",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "bin": {
-    "waste": "./index.js"
+    "waste": "./build/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wuuconix/wastebin-client/issues"
   },
-  "homepage": "https://github.com/wuuconix/wastebin-client#readme"
+  "homepage": "https://github.com/wuuconix/wastebin-client#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.0"
+  }
 }
