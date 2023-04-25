@@ -4,29 +4,16 @@ wastebin 配套CLI命令行客户端
 
 npm包地址： https://www.npmjs.com/package/wastebin
 
+使用方法:
+
+npx wastebin `[the path of file (relative or absolute)]`
+
 使用实例
 
-```bash
-npm i -g wastebin #全局安装
+![image](https://sina.wuuconix.link/large/007YVyKcly1hdbukp3gzwj30gf03babt.jpg)
 
-echo "wuuconix" | waste
-cat index.js | waste
-```
+实例返回的链接:
 
-![](https://tvax1.sinaimg.cn/large/007YVyKcly1h2w662yej0j30fx01t0ug.jpg)
+https://paste.wuuconix.link/view/#20230425124602_tsconfig.json
 
-或者更加打开一下脑洞，利用qrencode来生成链接二维码？
-
-```bash
-echo "How About Generating a QRCode for Share?" | waste | qrencode -t UTF8
-```
-
-![image](https://tvax4.sinaimg.cn/large/007YVyKcly1h2w67d3yzyj30oy0a9abi.jpg)
-
-PS: npm安装的时候如果找不到包，可能是你用的镜像源还没有更新。
-
-```bash
-npm config delete registry #关闭镜像源
-npm i -g wastebin
-```
-
+![image](https://sina.wuuconix.link/large/007YVyKcly1hdbunt1agkj31150iytpt.jpg)

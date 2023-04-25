@@ -1,7 +1,7 @@
 {
   "name": "wastebin",
   "description": "wastebin 配套CLI命令行客户端",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "type": "module",
   "scripts": {
