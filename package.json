@@ -1,7 +1,7 @@
 {
   "name": "wastebin",
   "description": "wastebin 配套CLI命令行客户端",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "tsc"
   },
   "bin": {
-    "waste": "./build/index.js"
+    "waste": "./src/index.mjs"
   },
   "repository": {
     "type": "git",
