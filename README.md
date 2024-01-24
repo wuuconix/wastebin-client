@@ -10,10 +10,10 @@ npx wastebin `[the path of file (relative or absolute)]`
 
 使用实例
 
-![image](https://sina.wuuconix.link/large/007YVyKcly1hdbukp3gzwj30gf03babt.jpg)
+![image](https://sina.wuuconix.link/large/007YVyKcly1hdbukp3gzwj30gf03babt.jpg?ts=1)
 
 实例返回的链接:
 
 https://paste.wuuconix.link/view/#20230425124602_tsconfig.json
 
-![image](https://sina.wuuconix.link/large/007YVyKcly1hdbunt1agkj31150iytpt.jpg)
+![image](https://sina.wuuconix.link/large/007YVyKcly1hdbunt1agkj31150iytpt.jpg?ts=1)
